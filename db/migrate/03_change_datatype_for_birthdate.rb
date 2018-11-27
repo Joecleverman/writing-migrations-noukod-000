@@ -1,5 +1,5 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
   def change
-    change_column :grade, :birthdate, :integer, :string
+    change_column (artists, birthdate, datetime)
   end
 end
